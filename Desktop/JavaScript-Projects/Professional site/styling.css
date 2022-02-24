@@ -1,0 +1,68 @@
+/* style body element by adding image and set to cover, add font family */
+body{
+    background: url("night.jpg");
+    background-size: cover;
+}
+
+
+
+
+/* Style brand image */
+
+
+/* Style navbar */
+.navbar{
+    font-size: 25px;
+    padding: 20px;
+    background: rgba(0,0,0,0.8);
+}
+
+.nav-item{
+    font-size: 20px;
+    margin-right: 20px;
+}
+
+/* Style jumbotron */
+
+#heading{
+    color:white;
+}
+
+.jumbotron{
+    
+    text-align: center;
+    background: rgba(0,0,0,0);
+}
+
+.jumbotron .card{
+    color: white;
+    border-radius: 10px;
+    background: rgba(0,0,0,0);
+}
+
+.container{
+    float: left;
+}
+
+.card-body img{
+
+    width: 50%;
+    height: 50%;
+    margin-bottom: 20px;
+}
+
+
+/* Limit width of icon section */
+
+
+/* Style icons section using bootstrap grid system */
+
+
+
+/* Style contact button */
+
+
+/* Style footer */
+
+
+/* Use media queries */

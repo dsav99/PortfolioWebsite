@@ -1,0 +1,53 @@
+/* Images created by: https://unsplash.com/@pawel_czerwinski */
+@import url('https://fonts.googleapis.com/css2?family=Barlow&family=Comfortaa&family=Kaushan+Script&family=Oswald&family=Quicksand:wght@300;400;500&family=Readex+Pro:wght@200;500&display=swap');
+
+
+
+body{
+  background-color: honeydew;
+  display: flex;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+}
+
+.player  {
+  text-align: center;
+  border-radius: 5%;
+  width: 400px;
+  height: 600px;
+  background-color: gainsboro;
+  box-shadow:  0 0 10px 15px rgba(0,0,0,0.2);
+}
+
+.image{
+  width:70%;
+  height:50%;
+  display: flex;
+  text-align: center;
+}
+
+.image img{
+  border-radius: 3%;
+  height: 100%;
+  width:100%;
+  transform: translate(20%,-10%);
+  box-shadow:  0 0 3px 4px rgba(0,0,0,0.3);
+}
+
+#song{
+  margin-top: 5px;
+  font-size: 5rem;
+  margin-bottom: 0;
+  font-family: 'Quicksand',sans-serif;
+  font-weight: 500;
+}
+
+#artist{
+  margin-top: 0;
+  font-family: 'Quicksand',sans-serif;
+  font-weight: 300;
+  margin-bottom: 50px;
+}
+
+

@@ -1,0 +1,32 @@
+<%- include("header") -%>
+<!-- Script -->
+<div class="quote">
+
+  <!-- QUOTE -->
+  <div class="quote-text">
+    <sup><i class="fas fa-quote-left"></i></sup>
+    <span id="quote"><%= quoteBody %></span>
+  </div>
+
+  <!-- AUTHOR -->
+
+  <div class="quoteAuthor">
+    <span id="author"><%= quoteAuthor %></span>
+  </div>
+
+
+  <!-- BUTTONS -->
+  <div class="buttons">
+    <form class="" action="https://twitter.com/intent/tweet" method="post">
+      <button type="submit" class="btn btn-dark " id="twitter" name="button" title="Twitter"><i class="fab fa-twitter" href="/"></i></button>
+
+    </form>
+
+    <form class="" action="/" method="post">
+      <button type="submit" class="btn btn-dark " id="newQuote" name="button">New Quote</button>
+    </form>
+  </div>
+
+
+</div>
+<%- include("footer") -%>
